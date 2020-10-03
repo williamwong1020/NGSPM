@@ -1,0 +1,57 @@
+body {
+	font-family: "Courier New";
+	color: black;
+	background-color: white;
+	margin: 0;
+}
+
+textarea {
+	border: 1px solid;
+	border-radius: 4px;
+}
+
+table, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+tr:hover { background-color: lightgrey }
+
+th {
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-shadow: 1px 0px red;
+}
+
+ani:hover {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+	background-position: 0 100%;
+	background-size: auto 6px;
+	background-repeat: repeat-x;
+	text-decoration: none;
+}
+
+.tagn { font-family: "Arial"; }
+c1 { color: orange; }
+c2 { color: blue; }
+c3 { color: fuchsia; }
+c4 { color: green; }
+c5 { color: cyan; }
+
+.mon {
+	color: white;
+	background-color: lightgrey; 
+	table-layout: fixed; 
+	word-wrap: break-word;
+	font-size: large;
+	font-weight: bold;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+a img { border: none; }
