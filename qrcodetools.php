@@ -51,7 +51,7 @@ if( ! isset( $_POST["qrcode"] ) && ! isset( $_GET["qrcode"] ) )
 <center>
 <B><?php echo VERSION; ?></B>
 <BR>
-<FORM action="./qrcodetools.php" method="POST" target="_self">
+<FORM action="./index.php" method="POST" target="_self">
 <textarea class="mon" NAME="qrcode" placeholder="<?php echo PLACEHOLDER; ?>" rows="5" cols="100"></textarea>
 <BR><BR>
 <INPUT type="image" src="go_btn.gif" alt="Submit" width="60">
