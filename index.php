@@ -71,7 +71,7 @@ else
 	echo '<center><B>'.VERSION.'</B><BR>';
 	echo '<table class="mon" width="1020"><tr><td>'.mouseovertext($qrcode,-1).'</td></tr></table><BR>';
 	echo '<table><tr><th>tag name</th><th>tagID</th><th>sub-<BR>tagID</th><th>length</th><th>data</th>';
-	echo '<th rowspan="0"><a href="./qrcodetoolscsv.php"><img src="csv_btn.gif" height="35" width="60"/></a><BR><BR>&nbsp;<img src="https://api.qrserver.com/v1/create-qr-code/?data='.$qrcode.'" />&nbsp;<BR><BR><a href="./qrcodetools.php"><img src="back_btn.png" height="60" width="60"/></a></th></tr>';
+	echo '<th rowspan="0"><a href="./qrcodetoolscsv.php"><img src="csv_btn.gif" height="35" width="60"/></a><BR><BR>&nbsp;<img src="https://api.qrserver.com/v1/create-qr-code/?data='.$qrcode.'" />&nbsp;<BR><BR><a href="./index.php"><img src="back_btn.png" height="60" width="60"/></a></th></tr>';
 	subtag( $qrcode, -1 );
 	echo '</table>';
 	$outcsvf = $qrcode."\r\n\r\ntag name,tagID,sub-tagID,length,data\r\n";
